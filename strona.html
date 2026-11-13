@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="SuperCSS2.css"> 
+    <meta charset="UTF-8">
+    <title>League of Legends - Kultura i Bohaterowie</title>
+</head>
+<body>
+    
+    <header>
+        <h1>League of Legends: Społeczność i Bohaterowie</h1>
+        
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+    Kliknij żeby wyświetlić datę oraz czas.</button>
+        
+        <p id="demo"></p>
+
+    <script>
+    let liczba = 0;
+
+    function dodajKlikniecie() {
+        liczba = liczba + 1;
+
+        if (liczba >= 100) {
+            liczba = 0;
+        }
+
+        document.getElementById("licznik").innerHTML =
+            "Liczba kliknięć: " + liczba;
+    }
+    </script>
+
+    <button onclick="dodajKlikniecie()">Kliknij mnie! :D</button>
+
+    <p id="licznik">Liczba kliknięć: 0</p>
+
+    </header>
+
+
+    
+    <section>
+        <h2 id="Jinx">1. Jinx - Wystrzałowa Wariatka</h2>
+        <p>Jinx to postać, która żyje po to, by siać chaos, nie zważając na konsekwencje. Jej arsenał potężnych broni pozwala wywoływać <b>ogromne eksplozje</b>, co czyni ją jednym z najbardziej rozpoznawalnych strzelców w grze z dystansu.</p>
+        <p>Gracze często dyskutują o jej wpływie na rozgrywkę oraz mechanice pozycjonowania. Zrozumienie jej stylu walki wymaga płynnego przełączania się między jej dwiema głównymi broniami, zależnie od dystansu do celu:</p>
+        
+        
+        <ul>
+            <li>Minigun "Pif-Paf" – idealny do szybkich ataków na bliski dystans.</li>
+            <li>Wyrzutnia rakiet "Rybeńka" – wolniejsza, ale zadająca obrażenia obszarowe.</li>
+            <li>Superumiejętność "Supermegarakieta Śmierci" – o globalnym zasięgu.</li>
+        </ul>
+        
+        
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg" alt="Jinx Splash Art" width="450">
+        <br>
+        <a href="https://universe.leagueoflegends.com/pl_PL/champion/jinx/">Poznaj pełną historię Jinx na stronie Universe</a>
+    </section>
+
+    <hr> 
+
+    
+    <section>
+        <h2 id="Zac">2. Zac - Tajna Broń Zaun</h2>
+        <p>Zac jest unikalnym bohaterem typu obrońca, który został stworzony w wyniku eksperymentów w laboratoriach Zaun. <i>Dzięki swojej elastycznej budowie i braku punktów many</i> potrafi z łatwością inicjować walki drużynowe, atakując wrogów zza ścian.</p>
+        <p>Analizując optymalne ścieżki dla Zaca w dżungli, społeczność wypracowała konkretny schemat skutecznego ataku z zaskoczenia (tzw. ganku). Podstawowy cykl takiej inicjacji wygląda następująco:</p>
+        
+        
+        <ol>
+            <li>Naładowanie umiejętności "Elastyczna Proca" w ukryciu (np. w zaroślach).</li>
+            <li>Wystrzelenie się i lądowanie w środku zgrupowania przeciwników.</li>
+            <li>Użycie superumiejętności "Hura, Bouns!" w celu rozbicia szyków wroga i wyłapania kluczowych celów.</li>
+        </ol>
+        
+        
+        <img src="zac_w_dzungli.jpg" alt="Zac podczas gry w dżungli" width="450">
+        <br>
+        <a href="https://universe.leagueoflegends.com/pl_PL/champion/zac/">Więcej informacji o Zacu znajdziesz tutaj</a>
+    </section>
+
+    <hr> 
+
+    
+    <section>
+        <h2 id="EZport">3. Dyskurs społeczności i rywalizacja e-sportowa</h2>
+        <p>League of Legends to nie tylko zbiór mechanik, ale przede wszystkim potężna kultura graczy i rozwinięta scena turniejowa. Język i dyskurs na forach społecznościowych bez przerwy ewoluują, definiując to, co obecnie uważa się za <mark>metę</mark> – czyli najskuteczniejsze strategie i wybory postaci w danym patchu.</p>
+        <p>Zrozumienie żargonu gry oraz wymiana wiedzy między graczami amatorskimi a zawodowcami pomaga w szybszej wspinaczce w grach rankingowych. <u>Ciągła analiza błędów i statystyk</u> to podstawa poprawy swoich umiejętności makro i mikrozarządzania.</p>
+        
+        
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/T1_vs_BLG_2024_Worlds_Finals.jpg/1280px-T1_vs_BLG_2024_Worlds_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" width="450">
+        <br>
+        <a href="https://lolesports.com/">Śledź wyniki profesjonalnych rozgrywek e-sportowych</a>
+    </section>
+
+</body>
+</html>
